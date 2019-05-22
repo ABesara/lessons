@@ -4,3 +4,5 @@ console.log(a);
 /**
  * this second type of comments
  */
+
+ // test
