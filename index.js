@@ -1,8 +1,2 @@
-var a = 'hello world';
-console.log(a);
-// my comment
-/**
- * this second type of comments
- */
-
- // test
+var myVar = 'Hello world';
+console.log(myVar);
