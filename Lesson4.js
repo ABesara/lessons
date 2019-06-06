@@ -42,3 +42,15 @@ if(a > 8) {
 } else {
     console.log('Остальные случаи');
 }
+
+var age = 21;
+
+if (age > 40) {
+    console.log('старше 20');
+} else if (age > 25) {
+    console.log('ищи закладку');
+} else if (age < 20) {
+    console.log('хуй знает шо');
+} else {
+    console.log('Это промежуток от 20 до 25');
+}

@@ -1,24 +1,26 @@
-var str1 = 'Hello';
-var num = 123;
+var x = 3;
+var y = 3;
+var c = y > x;
 
-var boolean1 = false;
-var obj = {
-    a: 1
-};
+// console.log(c);
+// console.log(x == y); // нестрогое сравнение
+var boolean = true;
+var z = 1;
+var z1 = '10ывпва';
+var nullString = '';
+// console.log(nullString == false);
+// false приводится к 0 а true приводится к 1
+// console.log(Boolean(z1)); // явное приведение типов
+// console.log(z1 == z); // неявное приведение типов
+// console.log(z == z1);
+// console.log(typeof z1);
+// console.log(typeof z);
+// console.log(typeof boolean);
+// console.log(typeof Number(boolean)); // type = number
+// console.log(typeof Number(z1)); // type = number
+var x1 = true; // true = 1
+var x2 = '50'; // '50' = 1
+console.log(x1 !== x2); // равен ли x1 x2
 
-// property или свойство объекта иногда их называют fields - поля объекта
-var user = {
-    name: 'Alex',
-    surname: 'Besarab',
-    age: 33,
-    married: false,
-};
+console.log(3 >= 2);
 
-
-var num = 1;
-var boolean = false;
-var newVar = Number(boolean);
-var newVar2 = String(boolean);
-console.log(typeof newVar);
-console.log(typeof newVar2);
-console.log(str1 + boolean); // true всегда приводится к числу 1, false всегда приводится к числу 0
