@@ -21,3 +21,8 @@ if (z>50) {
 } else {
 
 };
+
+var str1 = 'какая нибудь строка';
+var str2 = 'еще блядь строка';
+var str3 = 'новая строка';
+console.log(str1 + ' ' + str2 + ' ' + str3);
