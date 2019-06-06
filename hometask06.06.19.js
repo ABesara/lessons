@@ -17,7 +17,7 @@ if (z>50) {
     console.log("переменная Z больше 25 и имеет тип " + typeof z);
     z = ++z;
     z = String(z);
-    console.log(z + "переменная Z больше 25 и имеет тип " + typeof z);
+    console.log('переменная z=' + z + ' и имеет тип: ' + typeof z);
 } else {
 
 };
